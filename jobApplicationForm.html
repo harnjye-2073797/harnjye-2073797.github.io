@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Forms</title>
+
+    </head>
+    <body>
+        <form name="input" action="hmtl_form_action.asp" method="post"></form>
+            <label>First Name:</label>
+            <input type="text" name="firstname">
+            <br>
+            <label>Last Name:</label>
+            <input type="text" name="lastname">
+            <br>
+
+            <label>Password:</label>
+            <input type="password" name="pwd">
+            <br>
+
+            <label>Text Area:</label>
+            <textarea name="text">Enter your text here</textarea>
+            <br>
+            
+            <label>Buttons:</label>
+            <label>left</label>
+            <input type="radio" name="answer" value="left">
+            <label>right</label>
+            <input type="radio" name="answer" value="right">
+            <br>
+
+            <label>Checkbox:</label>
+            <label>yes</label>
+            <input type="checkbox" name="option" value="yes">
+            <label>no</label>
+            <input type="checkbox" name="option" value="no">
+            <br>
+
+            <label>Drop-down List:</label>
+            <select name="No.">
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>  
+                <option value="four">four</option> 
+            </select>
+            <br>
+
+            <form action="/action_page.php">
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+            </form>
+
+            <input type="image" src="http://www.clker.com/cliparts/3/a/e/h/l/o/simple-gray-submit-button-three-md.png" alt="Submit" width="60" height="48">
+        </form>
+    </body>
+</html>
